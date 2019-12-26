@@ -43,3 +43,71 @@ nav.main-nav a.cta {
     color: #fff;
     margin-left: 12px;
 }
+
+.post header {
+    text-align: center;
+}
+
+.post h1 {
+    margin-bottom: 20px;
+    color: #222;
+    font: 300 32px/1.4em "Helvetica Neue",sans-serif;
+}
+
+.post h2.headline {
+    font: 400 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: -5px 0 0;
+    color: #b2b9be;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+p.small {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p a {
+    color: #5694f1;
+}
+
+footer#footer {
+	bottom: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.archive {
+    margin: 0 0 50px;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#post-list li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#post-list a {
+    color: #333;
+    display: block;
+    font: 700 16px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+}
+
+#post-list h2 {
+    font: 400 14px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #aaa;
+    max-width: 600px;
+    margin-top: 2px;
+}

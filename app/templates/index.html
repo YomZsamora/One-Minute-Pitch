@@ -2,48 +2,54 @@
 {% import 'macros.html' as macro%}
 
 
-<!-- Styles block -->
-
-{% block styles%}
-    {{ super() }}
-    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
-{% endblock %}
-<!-- Content block -->
-
 
 <!-- Content block -->
 {% block content %}
 
 <div class="container">
-    <header>
-        <h1>
-            Flask Series: Model
-        </h1>
-        <h2 class="headline">
-            Monday, Jul 13, 2015 19:12
-            · 490 words
-            · 3 minutes
-            read
-            <span class="tags">
-                
-                
-                
-                <a href="https://damyanon.net/tags/python/">python</a>
-                
-                <a href="https://damyanon.net/tags/flask/">flask</a>
-                
-                <a href="https://damyanon.net/tags/flask-series/">flask series</a>
-                
-                
-                
-            </span>
-        </h2>
-    </header>
-
+	<div class="post">
+	    <header>
+	        <h1>
+	            One Minute Pitch
+	        </h1>
+	        <h2 class="headline">
+	            In life, you only have 60 seconds to impress someone. 1 minute can make or break you. <br>How do we make sure that you use your 1 minute to actually say something meaningful?
+	        </h2>
+	    </header>
+	    <div id="wrapper" class="home">
+		    <div class="archive">
+	            <h3>Latest</h3>
+	            <ul id="post-list">
+	                <li>
+	                    <a href="../tags/iac-series/">
+	                        Infrastructure-as-Code Series
+	                    </a>
+	                    <h2 class="headline" style="max-width: 600px">
+	                        Blog posts series describing how define your DigitalOcean infrastructure as code.
+	                    </h2>
+	                </li>
+	                <li>
+	                    <a href="../tags/flask-series/">
+	                        Flask Series
+	                    </a>
+	                    <h2 class="headline" style="max-width: 600px">
+	                        Blog posts series demonstrating how to implement a Flask based application.
+	                    </h2>
+	                </li>
+	            </ul>
+	        </div>
+    	</div>
+	</div>
 </div>
 
 
 
-
+<footer id="footer">
+    <p class="small">
+         Powered by
+        <a href="http://adzumi.co.ke/" target="_blank">Adzumi</a> © Copyright 2019
+        <i class="fa fa-heart" aria-hidden="true"></i> Yommie Samora 
+    </p>
+</footer>
 
 {% endblock%}
