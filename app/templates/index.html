@@ -6,7 +6,7 @@
 
 {% block styles%}
     {{ super() }}
-    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 {% endblock %}
 <!-- Content block -->
 
@@ -15,14 +15,34 @@
 {% block content %}
 
 <div class="container">
-    <form>
-        <input type="text" name="movie_query" placeholder="Search for a Movie" class="form-control">
-        <input type="submit"  value="Submit" class="btn btn-default">
-    </form>
+    <header>
+        <h1>
+            Flask Series: Model
+        </h1>
+        <h2 class="headline">
+            Monday, Jul 13, 2015 19:12
+            · 490 words
+            · 3 minutes
+            read
+            <span class="tags">
+                
+                
+                
+                <a href="https://damyanon.net/tags/python/">python</a>
+                
+                <a href="https://damyanon.net/tags/flask/">flask</a>
+                
+                <a href="https://damyanon.net/tags/flask-series/">flask series</a>
+                
+                
+                
+            </span>
+        </h2>
+    </header>
 
 </div>
 
-<!-- Popular movie -->
+
 
 
 
