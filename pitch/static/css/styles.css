@@ -15,6 +15,10 @@ body {
 	margin-top: 20px !important;
 }
 
+.mt150 {
+	margin-top: 150px;
+}
+
 .btn-primary {
 	color: #fff;
     background-color: #5badf0;
@@ -153,6 +157,11 @@ h3 {
     margin: 0 auto;
 }
 
+.login-page #wrapper, .login-page #wrapper.home, .login-page .register-user header {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 input.squared {
 	padding: 16px 16px 14px;
 	font-size: 11px;
@@ -168,4 +177,9 @@ input.squared {
 .btn-no-radius {
 	border-radius: 0;
 	padding: 16px 16px 14px;
+}
+
+img.logo {
+    width: 40px;
+    height: auto;
 }

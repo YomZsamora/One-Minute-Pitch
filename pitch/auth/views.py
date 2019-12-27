@@ -1,6 +1,6 @@
 from flask import render_template
 from . import auth
-from .forms import RegisterUserForm
+from .forms import RegisterUserForm,LoginUserForm
 
 @auth.route('/registerUser')
 def registerUser():
@@ -10,4 +10,5 @@ def registerUser():
 
 @auth.route('/login')
 def login():
-	return render_template('auth/login.html')
+	login_form = LoginUserForm()
+	return render_template('auth/login.html', login_form = login_form)
