@@ -22,7 +22,17 @@
 	    </header>
 	    <div id="wrapper" class="home">
 		    <div class="archive">
+	            <form action="" method="POST" role="form">
+	            	{{ registration_form.csrf_token }}
+	            	<div class="form-group">
+	            		{{ registration_form.username.label }}
+	            		{{ registration_form.username }}
+	            	</div>
 	            
+	            	
+	            
+	            	<button type="submit" class="btn btn-primary">Submit</button>
+	            </form>
 	        </div>
     	</div>
 	</div>
