@@ -183,3 +183,30 @@ img.logo {
     width: 40px;
     height: auto;
 }
+
+.profile #wrapper {
+    padding: 60px 40px 0;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.profile #header {
+    margin-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.profile #avatar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.profile h1 {
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #222;
+}
