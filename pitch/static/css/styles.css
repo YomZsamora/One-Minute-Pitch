@@ -15,6 +15,12 @@ body {
 	margin-top: 20px !important;
 }
 
+.btn-primary {
+	color: #fff;
+    background-color: #5badf0;
+    border-color: #2e6da4;
+}
+
 nav.main-nav {
     padding: 20px 20px 0;
     background: #fff;
@@ -80,6 +86,10 @@ p.small {
     text-align: center;
 }
 
+.registerUser p.small {
+	font-size: 12px;
+}
+
 p a {
     color: #5694f1;
 }
@@ -93,9 +103,21 @@ footer#footer {
     font-size: 12px;
 }
 
+footer.registerUser#footer {
+	bottom: auto;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 .archive {
     margin: 0 0 50px;
     font-size: 16px;
+}
+
+.register-user .archive {
+	margin: 0 0 50px;
 }
 
 h3 {
@@ -140,4 +162,9 @@ input.squared {
     border-radius: 0;
 	color:grey;
 
+}
+
+.btn-no-radius {
+	border-radius: 0;
+	padding: 16px 16px 14px;
 }

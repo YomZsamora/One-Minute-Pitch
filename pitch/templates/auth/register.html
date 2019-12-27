@@ -3,12 +3,13 @@
 
 
 {% block header %}
-	<h1>{% block title %}One Minute Pitch - Register User{% endblock %}</h1>
+	<h1>{% block title %}One Minute Pitch - Create Account{% endblock %}</h1>
 {% endblock %}
 
 
 <!-- Content block -->
 {% block content %}
+
 
 <div class="container register-user">
 	<div class="post">
@@ -25,12 +26,19 @@
 	            <form action="" method="POST" role="form">
 	            	{{ registration_form.csrf_token }}
 	            	<div class="form-group">
-	            		{{ registration_form.username(class_="form-control squared",placeholder="Enter Username",autocomplete="off") }}
+	            		{{ registration_form.username(class_="form-control squared",placeholder="Username",autocomplete="off") }}
 	            	</div>
-	            
+	            	<div class="form-group">
+	            		{{ registration_form.email(class_="form-control squared",placeholder="Email Address",autocomplete="off") }}
+	            	</div>
+	            	<div class="form-group">
+	            		{{ registration_form.password(class_="form-control squared",placeholder="Password",autocomplete="off") }}
+	            	</div>
+	            	<div class="form-group">
+	            		{{ registration_form.confirm_password(class_="form-control squared",placeholder="Confirm Password",autocomplete="off") }}
+	            	</div>
 	            	
-	            
-	            	<button type="submit" class="btn btn-primary">Submit</button>
+	            	{{ registration_form.submit(class="btn btn-primary btn-block btn-no-radius") }}
 	            </form>
 	        </div>
     	</div>
@@ -39,7 +47,7 @@
 
 
 
-<footer id="footer">
+<footer class="registerUser" id="footer">
     <p class="small">
          Powered by
         <a href="http://adzumi.co.ke/" target="_blank">Adzumi</a> © Copyright 2019
