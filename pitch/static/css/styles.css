@@ -56,6 +56,7 @@ nav.main-nav a.cta {
     background: #5badf0;
     color: #fff;
     margin-left: 12px;
+    text-decoration: none;
 }
 
 .post header {
