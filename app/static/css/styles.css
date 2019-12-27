@@ -1,4 +1,7 @@
 
+
+
+
 body {
     line-height: 1;
     font: 16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -117,7 +120,7 @@ h3 {
     padding: 0 40px 20px;
 }
 
-#wrapper, #wrapper.home {
+#wrapper, #wrapper.home, .register-user header {
     max-width: 700px;
     margin: 0 auto;
 }
