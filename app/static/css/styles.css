@@ -10,6 +10,11 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+
+.mt20 {
+	margin-top: 20px !important;
+}
+
 nav.main-nav {
     padding: 20px 20px 0;
     background: #fff;
@@ -123,4 +128,16 @@ h3 {
 #wrapper, #wrapper.home, .register-user header {
     max-width: 700px;
     margin: 0 auto;
+}
+
+input.squared {
+	padding: 16px 16px 14px;
+	font-size: 11px;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px #E4EBF2;
+    height: auto;
+    border: none;
+    border-radius: 0;
+	color:grey;
+
 }

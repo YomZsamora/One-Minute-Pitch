@@ -20,13 +20,12 @@
 	            One Minute Pitch is an online pitching competition application, aimed to connect developers to investors from all over the world. It is a space provided for developers and entrepreneurs to pitch their ideas online to corporates, investors, accelerators and media in order to get potential investment, partnership or exposure.
 	        </h2>
 	    </header>
-	    <div id="wrapper" class="home">
+	    <div id="wrapper" class="home mt20">
 		    <div class="archive">
 	            <form action="" method="POST" role="form">
 	            	{{ registration_form.csrf_token }}
 	            	<div class="form-group">
-	            		{{ registration_form.username.label }}
-	            		{{ registration_form.username(class_="form-control") }}
+	            		{{ registration_form.username(class_="form-control squared",placeholder="Enter Username",autocomplete="off") }}
 	            	</div>
 	            
 	            	

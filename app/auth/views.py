@@ -4,5 +4,5 @@ from .forms import RegisterUserForm
 
 @auth.route('/registerUser')
 def registerUser():
-	form = RegisterUserForm()
-	return render_template('auth/register.html', registration_form = form)
+	registration_form = RegisterUserForm()
+	return render_template('auth/register.html', registration_form = registration_form)
