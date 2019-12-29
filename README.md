@@ -2,7 +2,7 @@
 
 A web application that allows various users to submit a short pitch.
 
-[![pitches.png](https://i.postimg.cc/4yx0rV1j/pitches.png)](https://postimg.cc/JDSKXyvQ)
+[![pitch.png](https://i.postimg.cc/yNwcqHyK/pitch.png)](https://postimg.cc/GBxHY6fg)
 
 ## Description
 
