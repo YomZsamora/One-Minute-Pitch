@@ -15,3 +15,8 @@ def index():
 def profile():
 
 	return render_template('profile.html')
+
+
+@main.route('/pitches')
+def pitches():
+	return render_template('pitches.html')
