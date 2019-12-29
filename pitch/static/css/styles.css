@@ -10,6 +10,13 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+.m0 {
+    margin: 0;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
 
 .mt20 {
 	margin-top: 20px !important;
@@ -91,6 +98,10 @@ p.small {
     text-align: center;
 }
 
+#header p.small {
+    margin-top: 0;
+}
+
 .registerUser p.small {
 	font-size: 12px;
 }
@@ -122,7 +133,7 @@ footer.registerUser#footer {
 }
 
 .register-user .archive {
-	margin: 0 0 50px;
+	margin: 0 0 0px;
 }
 
 h3 {
@@ -148,12 +159,45 @@ h3 {
     margin-top: 2px;
 }
 
+#post-list li {
+    list-style-type: none;
+}
+#post-list li {
+    margin-bottom: 10px;
+}
+
+#post-list a {
+    color: #333;
+    display: block;
+    font: 700 16px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+}
+
+#post-list .dates {
+    float: right;
+    position: relative;
+    top: 1px;
+    font: 300 14px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+    color: #bbb;
+}
+
+#post-list h2 {
+    font: 400 14px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #aaa;
+    max-width: 400px;
+    margin-top: 2px;
+}
+
 #wrapper.home {
     padding: 0 40px 20px;
 }
 
 #wrapper, #wrapper.home, .register-user header {
     max-width: 700px;
+    margin: 0 auto;
+}
+
+.register-user #wrapper, .register-user #wrapper.home, .register-user header {
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -191,7 +235,6 @@ img.logo {
 }
 
 .profile #header {
-    margin-bottom: 60px;
     text-align: center;
     position: relative;
 }
