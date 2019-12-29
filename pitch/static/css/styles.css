@@ -270,14 +270,16 @@ img.logo {
     border-bottom: 2px solid !important;
     font-size: 14px;
     font-weight: bold;
-    ld; */
 }
-#tabs .nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    color: #eee;
-    font-size: 20px;
+.nav.nav-tabs li.active a {
+    border-color: transparent transparent
+#f3f3f3;
+    border-bottom-color: rgb(243, 243, 243);
+    border-bottom: 2px solid !important;
+    color: #5badf0;
+    font-size: 14px;
+    padding: .5rem 1rem;
+    font-weight: 700;
 }
 
 .nav-fill .nav-item {
@@ -300,4 +302,20 @@ img.logo {
 .archive nav .nav-tabs a:hover {
     text-decoration: none;
     color: #5badf0;
+}
+.nav-tabs>li>a {
+     margin-right: none;
+     border: none;
+     padding: .5rem 1rem;
+}
+.nav-tabs>li>a:hover {
+     margin-right: none;
+     border: none;
+     text-decoration: none;
+     color: #5badf0;
+     background-color: white;
+}
+
+ul.nav.nav-tabs {
+    font-size: 14px;
 }
