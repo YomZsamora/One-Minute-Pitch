@@ -1,7 +1,6 @@
 
 
 
-
 body {
     line-height: 1;
     font: 16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -21,7 +20,9 @@ body {
 .mb5 {
     margin-bottom: 5px;
 }
-
+.mb15 {
+    margin-bottom: 15px;
+}
 .mt20 {
 	margin-top: 20px !important;
 }
@@ -548,5 +549,18 @@ ul#post-list {
 
 #post-list::-webkit-scrollbar-thumb:hover {
   background: #5badf0; 
+}
+.categories .badge {
+    position: absolute;
+    font-size: 10px;
+    font-weight: normal;
+    right: -2px;
+    top: -1px;
+    line-height: 13px;
+    background-color: #5badf0;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 10px;
+    padding: 2px 5px;
 }
 
