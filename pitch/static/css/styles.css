@@ -178,7 +178,7 @@ h3 {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 14px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+    font: 400 14px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
     color: #bbb;
 }
 
@@ -231,7 +231,7 @@ img.logo {
 }
 
 .profile #wrapper {
-    padding: 60px 40px 0;
+    padding: 0 40px 0;
     max-width: 700px;
     margin: 0 auto;
 }
