@@ -2,6 +2,8 @@
 
 A web application that allows various users to submit a short pitch.
 
+[![pitches.png](https://i.postimg.cc/fTRPTP9x/pitches.png)](https://postimg.cc/BtRpmMN6)
+
 ## Description
 
 This application is developed to give users an opportunity to practice to say something meaningful if the user was ever given only one minute in life to say something. To see this site effectively user has to register first. If not registered, user can only see the pitches from other users but if registered, user can add a category for the pitch or he can add a pitch in the existing category. User can also like/dislike or comment on the pitches
