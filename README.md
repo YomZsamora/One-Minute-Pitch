@@ -36,7 +36,6 @@ This application is developed to give users an opportunity to practice to say so
 - PostgreSQL
 - Pip
 
-
 ## Setup Installations Requirements
    * To run the application, in your terminal:
 
